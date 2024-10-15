@@ -18,7 +18,7 @@ CREATE TABLE Patient_Data(
     TestResults VARCHAR(15));
 
 #Importing Data
-LOAD DATA INFILE 'C:\\ProgramData\\MySQL\\MySQL Server 8.0\\Uploads\\healthcare_datasetCleaned.csv'
+LOAD DATA INFILE 'STORED LOCATION'
 INTO TABLE Patient_Data
 FIELDS TERMINATED BY ','
 ENCLOSED BY'"'
